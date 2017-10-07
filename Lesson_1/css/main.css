@@ -12,3 +12,10 @@ body {
 
 .strong {
   font-weight: bold; }
+
+.contacts {
+  float: left; }
+
+.info {
+  padding-left: 20px;
+  overflow: hidden; }
