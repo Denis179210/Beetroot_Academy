@@ -1,0 +1,14 @@
+body {
+  background-color: #000;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 50px; }
+
+.name {
+  text-decoration: underline; }
+
+[src$="I.jpg"] {
+  border: 5px solid #fff; }
+
+.strong {
+  font-weight: bold; }
