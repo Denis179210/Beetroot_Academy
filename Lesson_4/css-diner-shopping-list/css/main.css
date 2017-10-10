@@ -1,0 +1,161 @@
+@charset "UTF-8";
+html {
+  background-color: #FFF; }
+
+body {
+  font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+  background-color: #3B3F45;
+  width: 100%;
+  height: 808px;
+  border: 20px solid white; }
+
+header {
+  width: 100%;
+  height: 117px;
+  background-color: #4A4F56;
+  color: #e57571;
+  text-align: center; }
+
+h1 {
+  font-size: 36px;
+  padding-top: 20px;
+  font-weight: bold; }
+
+h3 {
+  padding: 5px;
+  font-size: 24px; }
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.shopping-list {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  list-style-image: none; }
+
+.shopping-list li {
+  width: 100%;
+  height: 65px;
+  font-size: 26px;
+  color: #F9F9F9;
+  line-height: 65px;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+ul.shopping-list li:hover {
+  border-top: 5px solid #ffffff;
+  background: #625e77;
+  border-bottom: 5px solid #ffffff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: all .1s ease-in; }
+
+ul.shopping-list li:active {
+  background-color: #E57571; }
+
+[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-bottom: 20px; }
+
+[type="checkbox"]:checked + .item1::after,
+[type="checkbox"]:checked + .item1 {
+  text-decoration: line-through;
+  color: #a3a0b5; }
+
+[type="checkbox"]:checked + .item2::after,
+[type="checkbox"]:checked + .item2 {
+  text-decoration: line-through;
+  color: #a3a0b5; }
+
+[type="checkbox"]:checked + .item3::after,
+[type="checkbox"]:checked + .item3 {
+  text-decoration: line-through;
+  color: #a3a0b5; }
+
+[type="checkbox"]:checked + .item4::after,
+[type="checkbox"]:checked + .item4 {
+  text-decoration: line-through;
+  color: #a3a0b5; }
+
+[type="checkbox"]:checked + .item5::after,
+[type="checkbox"]:checked + .item5 {
+  text-decoration: line-through;
+  color: #a3a0b5; }
+
+[type="checkbox"]:checked + .item6::after,
+[type="checkbox"]:checked + .item6 {
+  text-decoration: line-through;
+  color: #a3a0b5; }
+
+.shopping-list li:nth-child(odd) {
+  background-color: #88839E; }
+
+.shopping-list li:nth-child(even) {
+  background-color: #7a7593; }
+
+.item1::after {
+  content: " (for the next lessons about CSS)";
+  color: #b9c6d6;
+  font-size: 17px;
+  line-height: 65px;
+  vertical-align: top; }
+
+.item2::after {
+  content: " (for more CSS manipulation)";
+  color: #b9c6d6;
+  font-size: 17px;
+  line-height: 65px;
+  vertical-align: top; }
+
+.item3::after {
+  content: " (because they are awesume)";
+  color: #b9c6d6;
+  font-size: 17px;
+  line-height: 65px;
+  vertical-align: top; }
+
+.item4::after {
+  content: " (hm...they always disappear)";
+  color: #b9c6d6;
+  font-size: 17px;
+  line-height: 65px;
+  vertical-align: top; }
+
+.item5::after {
+  content: "";
+  color: #b9c6d6;
+  font-size: 17px;
+  line-height: 65px;
+  vertical-align: top; }
+
+.item6::after {
+  content: " (for my friends)";
+  color: #b9c6d6;
+  font-size: 17px;
+  line-height: 65px;
+  vertical-align: top; }
+
+footer {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 800px;
+  height: 75px;
+  background-color: #4A4F56; }
+
+h2 {
+  color: #e57571;
+  font-size: 26px;
+  display: inline;
+  line-height: 75px; }
