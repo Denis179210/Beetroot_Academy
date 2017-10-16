@@ -397,7 +397,11 @@ html {
   transition: all .1s ease-in; }
 
 body {
-  font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+<<<<<<< Updated upstream
+  /* font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif; */
+=======
+  /* font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif; */
+>>>>>>> Stashed changes
   min-width: 800px;
   min-height: 100vh;
   background-color: #39C;
