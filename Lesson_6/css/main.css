@@ -414,12 +414,11 @@ input {
   display: inline-block;
   vertical-align: top;
   height: 100%;
-  background-color: transparent; }
-
-input[type=text] {
+  background-color: transparent;
+  transition: all .3s ease-in;
   font-size: 5.5em;
   font-weight: bold;
-  width: 80%;
+  width: 90%;
   color: #ec5a62; }
 
 input[type=text]::placeholder {
@@ -431,10 +430,11 @@ input[type=text]:focus {
 button {
   border: none;
   height: 100%;
-  width: 20%;
+  width: 10%;
   background-color: transparent; }
 
 button > img {
+  transition: all .3s ease-in;
   height: 4em;
   vertical-align: top; }
 
@@ -460,20 +460,20 @@ ul {
   min-height: 450px; }
 
 li {
+  transition: all .1s ease-in;
   background-color: #ebebed;
   margin: 5px 0; }
 
 li:hover {
-  transition: all .1s ease-in;
   -webkit-border-radius: 10px;
     -webkit-border-radius-border-radius: 10px;
   background-color: #E4E4E6; }
 
 li:hover a {
-  transition: all .1s ease-in;
   color: #ec5a62; }
 
 a {
+  transition: all .1s ease-in;
   display: block;
   padding: 10px;
   font-size: 1.5em;
@@ -497,4 +497,8 @@ li span {
 
 @media (max-width: 1200px) {
   main {
-    display: block; } }
+    display: block; }
+  input[type=text] {
+    font-size: 3em; }
+  button > img {
+    height: 2.5em; } }
