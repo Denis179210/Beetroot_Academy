@@ -415,8 +415,7 @@ input {
   vertical-align: top;
   height: 100%;
   background-color: transparent; }
-
-input[type=text] {
+  transition: all .3s ease-in;
   font-size: 5.5em;
   font-weight: bold;
   width: 80%;
@@ -460,6 +459,7 @@ ul {
   min-height: 450px; }
 
 li {
+   transition: all .1s ease-in;
   background-color: #ebebed;
   margin: 5px 0; }
 
@@ -474,6 +474,7 @@ li:hover a {
   color: #ec5a62; }
 
 a {
+  transition: all .1s ease-in;
   display: block;
   padding: 10px;
   font-size: 1.5em;
@@ -495,6 +496,11 @@ li span {
   font-size: 0.6em;
   font-weight: bold; }
 
+
 @media (max-width: 1200px) {
   main {
-    display: block; } }
+    display: block; }
+  input[type=text] {
+    font-size: 3em; }
+  button > img {
+    height: 2.5em; } }
