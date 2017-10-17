@@ -414,7 +414,7 @@ input {
   display: inline-block;
   vertical-align: top;
   height: 100%;
-  background-color: transparent; }
+  background-color: transparent;
   transition: all .3s ease-in;
   font-size: 5.5em;
   font-weight: bold;
