@@ -460,7 +460,11 @@ ul {
   min-height: 450px; }
 
 li {
+<<<<<<< HEAD
   transition: all .1s ease-in;
+=======
+   transition: all .1s ease-in;
+>>>>>>> 0429b78a79d3d894e21b09b73717ce599031778d
   background-color: #ebebed;
   margin: 5px 0; }
 
@@ -494,6 +498,7 @@ li span {
   vertical-align: middle;
   font-size: 0.6em;
   font-weight: bold; }
+
 
 @media (max-width: 1200px) {
   main {
