@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Lato-Italic';
+  src: url("../fonts/Lato-Italic.eot");
+  src: url("../fonts/Lato-Italic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Lato-Italic.woff2") format("woff2");
+  src: url("../fonts/Lato-Italic.woff") format("woff");
+  src: url("../fonts/Lato-Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url("../fonts/Lato-Regular.eot");
+  src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Lato-Regular.woff2") format("woff2");
+  src: url("../fonts/Lato-Regular.woff") format("woff");
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url("../fonts/playfairdisplay-regular-webfont.woff2") format("woff2");
+  src: url("../fonts/playfairdisplay-regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal; }
+
+html {
+  background-color: white; }
+
+.wraper {
+  background-color: white;
+  box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  min-height: 800px;
+  margin: 100px auto; }
+
+.wraper-child {
+  padding: 120px 120px; }
+
+header h1.Willow_Crest {
+  font-size: 42px;
+  font-family: "PlayfairDisplay-Regular";
+  color: #171717;
+  line-height: 1;
+  text-align: left;
+  margin-left: -3px; }
+
+span.T {
+  font-size: 110px;
+  font-family: "PlayfairDisplay-Regular";
+  color: #171717;
+  line-height: 0.87;
+  left: 120px;
+  top: 220px;
+  width: 62px;
+  height: 79px;
+  display: block;
+  float: left;
+  margin-right: 40px;
+  margin-left: -3px; }
+
+span.text {
+  font-size: 18px;
+  font-family: "Lato-Regular", Arial, sans-serif;
+  color: rgba(23, 23, 23, 0.702);
+  line-height: 1.889;
+  -moz-transform: matrix(1.10414, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(1.10414, 0, 0, 1, 0, 0);
+  -ms-transform: matrix(1.10414, 0, 0, 1, 0, 0); }
+
+span.T + span.text::after {
+  clear: both; }
+
+blockquote {
+  font-size: 28px;
+  font-family: "Lato-Italic", Arial, sans-serif;
+  color: rgba(23, 23, 23, 0.702);
+  line-height: 1.889;
+  -moz-transform: matrix(1.10414, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(1.10414, 0, 0, 1, 0, 0);
+  -ms-transform: matrix(1.10414, 0, 0, 1, 0, 0); }
+
+button {
+  font-size: 18px;
+  font-family: "Lato-Regular", Arial, sans-serif;
+  color: #eaa258;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.889;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #eaa258;
+  letter-spacing: 5px;
+  outline: none; }
+
+span.qoute {
+  font-size: 60px; }
