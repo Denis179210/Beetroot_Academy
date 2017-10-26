@@ -1,0 +1,42 @@
+.board {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(135deg, transparent 75%, rgba(255, 255, 255, 0.4) 0%) 0 0, linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.4) 0%) 50px 50px, linear-gradient(135deg, transparent 75%, rgba(255, 255, 255, 0.4) 0%) 50px 50px, linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.4) 0%) 0 0, #253137;
+  -webkit-background-size: 100px 100px;
+  -o-background-size: 100px 100px;
+  background-size: 100px 100px; }
+
+.checkers {
+  width: 400px;
+  height: 150px; }
+
+.checkers:last-child {
+  margin-top: 100px; }
+
+.brown, .red {
+  width: 50px;
+  height: 50px;
+  float: left; }
+
+.brown:not(:nth-child(5)) {
+  margin-left: 50px; }
+
+.red:not(:nth-child(1)) {
+  margin-left: 50px; }
+
+.red:nth-child(9) {
+  margin-left: 0; }
+
+.brown div {
+  background-color: #dd45; }
+
+.red div {
+  background-color: #ff3f50; }
+
+.brown div, .red div {
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  margin-top: 2px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }

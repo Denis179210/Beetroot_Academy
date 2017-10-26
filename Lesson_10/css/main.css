@@ -1,0 +1,131 @@
+.board {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(135deg, transparent 75%, rgba(255, 255, 255, 0.4) 0%) 0 0, linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.4) 0%) 50px 50px, linear-gradient(135deg, transparent 75%, rgba(255, 255, 255, 0.4) 0%) 50px 50px, linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.4) 0%) 0 0, #253137;
+  -webkit-background-size: 100px 100px;
+  -o-background-size: 100px 100px;
+  background-size: 100px 100px;
+  position: relative; }
+
+.checkers {
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  opacity: 0.5; }
+
+.checkers-brown {
+  top: 0; }
+
+.checkers-red {
+  bottom: 0; }
+
+.brown, .red {
+  position: absolute;
+  width: 50px;
+  height: 50px; }
+
+.brown div {
+  background-color: #dd45; }
+
+.red div {
+  background-color: #ff3f50; }
+
+.brown div, .red div {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.brown:nth-child(1) {
+  left: 50px; }
+
+.brown:nth-child(2) {
+  left: 150px; }
+
+.brown:nth-child(3) {
+  left: 250px; }
+
+.brown:nth-child(4) {
+  left: 350px; }
+
+.brown:nth-child(5) {
+  left: 0px;
+  top: 50px; }
+
+.brown:nth-child(6) {
+  left: 100px;
+  top: 50px; }
+
+.brown:nth-child(7) {
+  left: 200px;
+  top: 50px; }
+
+.brown:nth-child(8) {
+  left: 300px;
+  top: 50px; }
+
+.brown:nth-child(9) {
+  left: 50px;
+  top: 100px; }
+
+.brown:nth-child(10) {
+  left: 150px;
+  top: 100px; }
+
+.brown:nth-child(11) {
+  left: 250px;
+  top: 100px; }
+
+.brown:nth-child(12) {
+  left: 350px;
+  top: 100px; }
+
+.red:nth-child(1) {
+  left: 0; }
+
+.red:nth-child(2) {
+  left: 100px; }
+
+.red:nth-child(3) {
+  left: 200px; }
+
+.red:nth-child(4) {
+  left: 300px; }
+
+.red:nth-child(5) {
+  left: 50px;
+  top: 50px; }
+
+.red:nth-child(6) {
+  left: 150px;
+  top: 50px; }
+
+.red:nth-child(7) {
+  left: 250px;
+  top: 50px; }
+
+.red:nth-child(8) {
+  left: 350px;
+  top: 50px; }
+
+.red:nth-child(9) {
+  left: 0;
+  top: 100px; }
+
+.red:nth-child(10) {
+  left: 100px;
+  top: 100px; }
+
+.red:nth-child(11) {
+  left: 200px;
+  top: 100px; }
+
+.red:nth-child(12) {
+  left: 300px;
+  top: 100px; }
