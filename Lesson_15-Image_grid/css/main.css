@@ -1,0 +1,83 @@
+.b-body {
+  height: 100vh; }
+
+.m__isumr {
+  background-color: #AFDFBF;
+  background-image: url("../img/590x100_inumr.png"); }
+
+.m__green {
+  background-color: #68c5b8;
+  background-image: url("../img/590x100_green.png"); }
+
+.m__pink {
+  background-color: #FA688A;
+  background-image: url("../img/590x185_pink_white.png"); }
+
+.m__blue {
+  background-color: #588CC7; }
+
+.m__blue-M {
+  background-image: url("../img/195x85_blue_white.png"); }
+
+.m__blue-L {
+  background-image: url("../img/388x85_blue_white.png"); }
+
+.m__violet {
+  background-color: #8A95EF;
+  background-image: url("../img/185x85_violet_white.png"); }
+
+.m__orange {
+  background-color: #FFC569;
+  background-image: url("../img/290x85_orange.png"); }
+
+.m__purple {
+  background-color: #6652AD; }
+
+.m__purple-S {
+  background-image: url("../img/195x85_purple_white.png"); }
+
+.m__purple-M {
+  background-image: url("../img/395x85_purple_white.png"); }
+
+.m__purple-L {
+  background-image: url("../img/582x85_purple_white.png"); }
+
+.signature {
+  width: 1200px;
+  margin: auto;
+  padding: 20px 0 20px 0;
+  font-size: 2em;
+  text-transform: capitalize;
+  font-family: Arial, sans-serif;
+  font-weight: 700; }
+
+.l-container {
+  width: 1200px;
+  height: 80vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  margin: auto; }
+
+.__grid {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px; }
+
+.__1-1x1fr {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr; }
+
+.__2-2x1fr {
+  grid-template-columns: 1fr 1fr; }
+
+.__2-1x2fr-1x1fr {
+  grid-template-columns: 2fr 1fr; }
+
+.__3-3x1fr {
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.__4-2x2fr-2x1fr {
+  grid-template-columns: 2fr 2fr 1fr 1fr; }
+
+.__2-1x1fr-1x3fr {
+  grid-template-columns: 1fr 3fr; }
