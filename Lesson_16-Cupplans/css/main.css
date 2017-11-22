@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'miso-bold';
+  src: url("../fonts/miso/miso_bold/miso-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'miso-regular';
+  src: url("../fonts/miso/miso_regular/miso-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+.__animate, * {
+  -webkit-transition: all .5s ease;
+  -moz-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s easy; }
+
+.body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'miso-regular';
+  color: #333; }
+
+.main {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  background-color: #ffcc66;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.coffee {
+  width: 360px;
+  min-height: 441px;
+  background-color: #FFF;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px;
+  box-shadow: 0 3px 5px #cccc66dd;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.coffee_price {
+  font-family: 'miso-bold';
+  color: green;
+  font-size: 70px;
+  margin: 15px;
+  padding-top: 30px; }
+
+.coffee_type {
+  font-size: 4em;
+  margin: 0; }
+
+.coffee_description {
+  font-weight: 700;
+  margin-bottom: 40px; }
+
+#first, #second, #third {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden; }
+
+[type=checkbox]:checked + label > .coffee > .coffee_image {
+  padding: 20px 0; }
