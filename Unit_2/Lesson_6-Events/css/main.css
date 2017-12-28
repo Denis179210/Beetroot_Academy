@@ -1,0 +1,17 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.data-storage {
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 100px;
+  padding: 20px;
+  border: 1px dotted black; }
+
+.enter-data {
+  width: 300px;
+  height: 100px; }
