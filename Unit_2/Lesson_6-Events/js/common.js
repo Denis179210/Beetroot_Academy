@@ -1,7 +1,7 @@
 {	
 	let dataStorage = document.querySelector(".data-storage"),
 		buffer = null,
-		textarea = document.createElement("textarea");
+		textarea = null;
 
 	function enterData(e) {
 		
